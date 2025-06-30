@@ -1,0 +1,131 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 35% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 35% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 35% 15%;
+
+    --primary: 210 85% 25%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 210 25% 88%;
+    --secondary-foreground: 210 35% 15%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 15% 45%;
+
+    --accent: 210 85% 25%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 210 85% 25%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 210 35% 15%;
+    --sidebar-primary: 210 85% 25%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 210 20% 96%;
+    --sidebar-accent-foreground: 210 35% 15%;
+    --sidebar-border: 210 20% 90%;
+    --sidebar-ring: 210 85% 25%;
+
+    /* Custom OSSA brand colors matching the logo */
+    --ossa-blue: 210 85% 25%;
+    --ossa-navy: 210 50% 15%;
+    --ossa-light-blue: 210 25% 88%;
+    --ossa-gray: 210 15% 45%;
+  }
+
+  .dark {
+    --background: 210 35% 8%;
+    --foreground: 0 0% 98%;
+    --card: 210 35% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 210 35% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 210 25% 88%;
+    --primary-foreground: 210 35% 8%;
+    --secondary: 210 35% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 35% 15%;
+    --muted-foreground: 210 20% 70%;
+    --accent: 210 35% 15%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 210 35% 15%;
+    --input: 210 35% 15%;
+    --ring: 210 25% 88%;
+    --sidebar-background: 210 50% 10%;
+    --sidebar-foreground: 210 20% 95%;
+    --sidebar-primary: 210 85% 25%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 15%;
+    --sidebar-accent-foreground: 210 20% 95%;
+    --sidebar-border: 210 40% 15%;
+    --sidebar-ring: 210 85% 25%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom animations and utilities */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(to right, hsl(var(--ossa-blue)), hsl(var(--ossa-navy)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  .ossa-gradient {
+    background: linear-gradient(135deg, hsl(var(--ossa-blue)) 0%, hsl(var(--ossa-navy)) 100%);
+  }
+  
+  .ossa-shadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+}
+
+/* GSAP animations setup */
+.fade-up {
+  opacity: 0;
+  transform: translateY(60px);
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+.scale-in {
+  opacity: 0;
+  transform: scale(0.9);
+}
