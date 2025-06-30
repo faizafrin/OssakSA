@@ -75,13 +75,13 @@ const About = () => {
       <section className="pt-24 pb-16 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div ref={heroRef} className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6">
+            {/* <h1 className="text-5xl lg:text-7xl font-bold mb-6">
               About <span className="text-gradient">OSSA</span>
-            </h1>
-            <p className="text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            </h1> */}
+            {/* <p className="text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Established in 2025, OSSA is a dynamic construction and industrial solutions company 
               redefining standards across Saudi Arabia and the GCC region.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -94,18 +94,19 @@ const About = () => {
               <h2 className="text-4xl font-bold mb-8">Our Story</h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                Founded in Riyadh in 2025, OSSA was created with a simple but powerful idea: to deliver smarter, safer, and more efficient construction and industrial solutions across Saudi Arabia. 
-                What began as a team of experienced engineers and project managers has grown into a full-service company trusted by clients across sectors.
+               Founded in 2025, OSSA was established to address the growing demand for specialized oil and gas support services within the Kingdom. Our founders — experienced professionals in engineering, operations, and industrial logistics — envisioned a company that could combine technical strength with responsiveness and safety-first thinking.
                 </p>
                 <p>
-                We started OSSA to meet the growing demand for quality-driven execution in a rapidly transforming region.
-                Our goal was to go beyond traditional contracting — to bring precision, innovation, and accountability into every project, 
-                no matter the size or complexity.
+                We began by serving critical maintenance and turnaround needs for petrochemical and energy plants. 
+                As the sector evolved, so did we — expanding our capabilities to include equipment rental, skilled manpower supply, fabrication, 
+                and project support for some of the region’s most challenging environments.
                 </p>
                 <p>
-                From residential developments and industrial plants to infrastructure and public sector projects, 
-                we’ve built our reputation on performance, trust, and a commitment to doing things right. 
-                Today, OSSA continues to grow by staying true to our values: safety first, quality always, and partnerships built to last.
+                Today, OSSA stands as a trusted partner in Saudi Arabia’s energy ecosystem, contributing to the success of major oil and gas operations through dependable service, 
+                deep sector knowledge, and a relentless focus on quality.
+                </p>
+                <p>
+                Our journey is fueled by purpose — and we’re just getting started.
                 </p>
               </div>
             </div>

@@ -17,27 +17,29 @@ const Services = () => {
   const services = [
     {
       icon: Building,
-      title: "General Contracting",
-      description: "We provide full-scope general contracting services for residential, commercial, and industrial projects.",
+      title: "Plant Shutdown & Turnaround Support",
+      description: "Planned and rapid shutdown services to ensure safe, efficient maintenance and timely restart of critical operations.",
       features: [
-        "End-to-end construction execution",
-        "Turnkey project delivery",
-        "Design & build solutions",
-        "Cost-effective project management"
+        'Comprehensive shutdown planning and scheduling',
+        'Mobilization of skilled teams and equipment',
+        'Coordination with clients for minimal operational distruption',
+        'Execution of maintenance, repairs, and upgrades',
+        'Safe and efficient plant restart and commissioning'
       ],
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=600&q=80"
+      image: "https://supreemtubers.com/storage/thumb/1674467185_6.png"
     },
     {
       icon: Wrench,
-      title: "Civil & Structural Works",
+      title: "Industrial Maintenance & Operations",
       description: "Our civil engineering capabilities are the backbone of many successful projects.",
       features: [
-        "Earthworks, excavation, and site development",
-        "Concrete foundations and structural frames",
-        "Infrastructure works including roads and drainage",
-        "Retaining walls and industrial-grade flooring"
+        'Preventive maintenance programs to reduce breakdowns',
+        'Corrective maintenance for urgent repairs',
+        'Mechanical, electrical, and instrumentation services',
+        'Asset reliability and performance optimization',
+        'Compliance with safety and quality standards'
       ],
-      image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=600&q=80"
+      image: "https://nanoprecise.io/wp-content/uploads/2023/02/shutterstock_1892584468-2-1.png"
     },
     {
       icon: Zap,
@@ -49,19 +51,21 @@ const Services = () => {
         "Plumbing, drainage, and fire safety systems",
         "Building Management System (BMS) integration"
       ],
-      image: "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=600&q=80"
+      image: "https://alcomoil.com/wp-content/uploads/2020/06/Drilling-1.jpg"
     },
     {
       icon: Cog,
-      title: "Industrial Support Services",
+      title: "Industrial Equipment Rental Services",
       description: "We assist industrial clients with ongoing support services that keep operations running smoothly.",
       features: [
-        "Equipment and machinery rental",
-        "Shutdown and turnaround maintenance",
-        "Fabrication, welding, and technical inspections",
-        "Health, safety, and compliance services"
+        'Cranes, forklifts, generators, compressors, and welding machines',
+        'Well-maintained and regularly inspected equipment',
+        'Rapid deployment and logistical support',
+        'Equipment tailored for heavy industrial and oilfield use',
+        'On-site technical support and maintenance',
+        
       ],
-      image: "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=600&q=80"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDKzWX8l_9oiKBuFeZ8hdq1AmLb368JVi8Q&s"
     },
     {
       icon: FileText,
@@ -85,7 +89,7 @@ const Services = () => {
         "Regular training and zero-incident culture promotion",
         "Continuous monitoring and process improvements"
       ],
-      image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?auto=format&fit=crop&w=600&q=80"
+      image: "https://ramdon.com/wp-content/uploads/2023/12/quality-assurance-in-gas-supply-530x278.jpg"
     }
   ];
 

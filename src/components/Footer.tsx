@@ -53,11 +53,12 @@ const Footer = () => {
             <h3 className="text-lg lg:text-xl font-bold mb-4 lg:mb-6">Services</h3>
             <div className="space-y-3">
               {[
-                'General Contracting',
-                'Civil & Structural',
+                'Plant Shutdown and Turnaround Support',
+                'Industrial Maintanance and Operations',
                 'MEP Services',
-                'Industrial Support',
-                'Project Management'
+                'Industrial Equipment Rental Services',
+                'Project Management Consultancy',
+                'Safety and Quality Assurance'
               ].map((service) => (
                 <div key={service} className="text-slate-300 hover:text-white transition-colors cursor-pointer text-sm lg:text-base">
                   {service}

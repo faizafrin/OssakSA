@@ -263,40 +263,40 @@ const ServicesSection = () => {
         <div ref={imageRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6">
           <div className="lg:col-span-2 relative rounded-2xl overflow-hidden ossa-shadow group">
             <img
-              src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1a977LY3d7aOQQcPaYWs6nVVXjzL_hmnd_g&s"
               alt="Modern construction project"
               className="w-full h-56 lg:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="text-lg font-bold mb-1">Commercial Buildings</h3>
-              <p className="text-sm opacity-90">Modern construction excellence</p>
+              <h3 className="text-lg font-bold mb-1">Plant Shutdown & Turnaround Support</h3>
+              <p className="text-sm opacity-90"></p>
             </div>
           </div>
 
           <div className="lg:col-span-2 relative rounded-2xl overflow-hidden ossa-shadow group">
             <img
-              src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&q=80"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2l7wnr_UZ5It86kx5NKSrBqyqvb2LcuWImw&s"
               alt="Industrial construction"
               className="w-full h-56 lg:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="text-lg font-bold mb-1">Industrial Projects</h3>
-              <p className="text-sm opacity-90">Heavy industrial construction</p>
+              <p className="text-sm opacity-90"></p>
             </div>
           </div>
 
           <div className="lg:col-span-1 relative rounded-2xl overflow-hidden ossa-shadow group">
             <img
-              src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=800&q=80"
+              src=""
               alt="Infrastructure development"
               className="w-full h-56 lg:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="text-lg font-bold mb-1">Infrastructure</h3>
-              <p className="text-sm opacity-90">Civil engineering</p>
+              <h3 className="text-lg font-bold mb-1">Industrial Maintenance & Operations</h3>
+              <p className="text-sm opacity-90"></p>
             </div>
           </div>
 
@@ -309,7 +309,7 @@ const ServicesSection = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="text-lg font-bold mb-1">Professional Excellence</h3>
-              <p className="text-sm opacity-90">Dedicated teams delivering outstanding results</p>
+              <p className="text-sm opacity-90"></p>
             </div>
           </div>
 

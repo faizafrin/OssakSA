@@ -106,7 +106,7 @@ const HeroSection = () => {
           <div ref={imageRef} className="relative order-first lg:order-last">
             <div className="relative aspect-square lg:aspect-[4/5] rounded-2xl overflow-hidden ossa-shadow max-w-md mx-auto lg:max-w-none">
               <img
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80"
+                src="https://img.freepik.com/premium-photo/oil-industry-refinery-factory-sunset-petroleum-petrochemical-plant-smoke-comes-out-big-chimneys-after-processing-combustion-oil_1028938-194086.jpg"
                 alt="Modern construction site"
                 className="w-full h-full object-cover"
               />
